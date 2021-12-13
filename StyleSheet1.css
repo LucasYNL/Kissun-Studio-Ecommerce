@@ -1,13 +1,10 @@
-﻿body{
-}
-
-*{
+﻿*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: 'Fuzzy Bubbles', cursive;
     background: radial-gradient(#fff, #edafaf);
 }
@@ -62,9 +59,10 @@ p{
     min-width: 300px;
 }
 
-.col 2 img{
+.col-2 img{
     max-width: 100%;
-    padding: 50px 0;
+    border-radius: 40px;
+    padding-left: 15px;
 }
 
 .col-2 h1{
