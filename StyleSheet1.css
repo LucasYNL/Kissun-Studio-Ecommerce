@@ -99,6 +99,10 @@ p{
     margin: 70px 0;
 }
 
+.w3-round-xxlarge {
+    margin-left: 35px;
+}
+
 .col-3{
     flex-basis: 30%;
     min-width: 250px;
@@ -106,7 +110,7 @@ p{
 }
 
 .col-3 img{
-    width: 80%
+    width: 90%
 }
 
 .small-container{
