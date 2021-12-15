@@ -1,4 +1,5 @@
-﻿*{
+﻿/* General Styling*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +10,33 @@ body{
     background: radial-gradient(#fff, #edafaf);
 }
 
-.navbar{
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+/* ---------------
+1
+1
+1
+1
+*/
+
+/* Header Styling */
+.navbar{.header .row {
+    margin-top: 30px;
+}
     display: flex;
     align-items: center;
     padding: 20px;
@@ -31,47 +58,32 @@ nav ul li{
     margin-right: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: #555;
-}
 
-p{
-    color: #555;
-}
-
-.container{
+.container {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around
-}
-
-.col-2{
+.col-2 {
     flex-basis: 50%;
     min-width: 300px;
 }
 
-.col-2 img{
+.col-2 img {
     max-width: 100%;
     border-radius: 40px;
     padding-left: 15px;
 }
 
-.col-2 h1{
+.col-2 h1 {
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
 }
 
-.btn{
+.btn {
     display: inline-block;
     background: #ff523b;
     color: #fff;
@@ -81,18 +93,22 @@ p{
     transition: background 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
     background: #555;
 }
 
-.header {
-    /* background: radial-gradient(#fff, #ffd6d6); */
-}
-
-.header .row{
+.header .row {
     margin-top: 30px;
 }
 
+/* ---------------
+1
+1
+1
+1
+*/
+
+/* Categories Styling */
 .categories{
     margin: 70px 0;
 }
@@ -139,3 +155,11 @@ p{
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* ---------------
+1
+1
+1
+1
+*/
+
