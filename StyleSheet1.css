@@ -26,6 +26,16 @@ p{
     justify-content: space-around
 }
 
+.logo{
+    width: 125px;
+    border-radius: 80px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
 /* ---------------
 1
 1
@@ -134,7 +144,7 @@ nav ul li{
 
 .col-3 img{
     width: 90%;
-    border-radius: 100%;
+    border-radius: 80%;
     padding-top: 15px;
 }
 
@@ -181,3 +191,19 @@ h4{
 1
 */
 
+/* New Release */
+.new{
+    padding: 30px 0;
+}
+
+.new .new-item{
+    padding: 50px;
+    margin-left: 450px;
+    width: 500px;
+    border-radius: 200px;
+    position: relative;
+}
+
+small{
+    color: #555;
+}
